@@ -37,7 +37,7 @@ public class AccountFragment extends Fragment {
         EditText mAddress = (EditText) rootView.findViewById(R.id.address_info_et);
         Button mBackBt = (Button) rootView.findViewById(R.id.back_bt);
 
-        Picasso.get().load(orderDatabase.userDao().getUserData().get(0).getImage()).into(mProfile);
+    //    Picasso.get().load(orderDatabase.userDao().getUserData().get(0).getImage()).into(mProfile);
         mUsernameTv.setText(orderDatabase.userDao().getUserData().get(0).getUserName());
         mUsername.setText(orderDatabase.userDao().getUserData().get(0).getUserName());
         mEmail.setText(orderDatabase.userDao().getUserData().get(0).getEmail());

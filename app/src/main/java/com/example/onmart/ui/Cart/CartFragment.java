@@ -39,6 +39,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -149,7 +150,6 @@ public class CartFragment extends Fragment implements PaymentResultListener {
 
     public void startPayment() {
         Checkout checkout = new Checkout();
-
         checkout.setKeyID("rzp_test_0Iki94Dm2P8ohX");
         /**
          * Instantiate Checkout
